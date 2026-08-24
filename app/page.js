@@ -94,7 +94,7 @@ export default function HomePage() {
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {[
               { step: "01", icon: "📋", title: "Book Appointment", desc: "Call us or book online. Choose your preferred date and time." },
-              { step: "02", icon: "🩺", title: "Initial Consultation", desc: "Meet our therapist for a thorough assessment of your condition." },
+              { step: "02", icon: "🩺", title: "Initial Consultation", desc: "Meet our doctor for a thorough assessment of your condition." },
               { step: "03", icon: "🌿", title: "Personalised Plan", desc: "Receive a tailored treatment plan using natural therapies." },
               { step: "04", icon: "✨", title: "Heal & Thrive", desc: "Follow your plan and experience natural, lasting recovery." },
             ].map((s, i) => (
