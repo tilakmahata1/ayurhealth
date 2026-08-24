@@ -27,7 +27,10 @@ export default function Navbar() {
         {/* Desktop nav */}
         <div className="hidden items-center gap-8 lg:flex">
           {NAV_LINKS.map((link) => {
-            const active = pathname === link.href;
+            const active =
+  link.href === "/"
+    ? pathname === "/"
+    : pathname.startsWith(link.href);
             return (
               <Link key={link.href} href={link.href}
                 className={`focus-ring link-underline font-body text-sm font-600 transition-colors ${active ? "text-green-600 font-700" : "text-gray-700 hover:text-green-600"}`}>
