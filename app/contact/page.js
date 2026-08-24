@@ -13,7 +13,7 @@ export default function ContactPage() {
           <span className="eyebrow text-green-200">Get In Touch</span>
           <h1 className="mt-3 font-display text-5xl font-700 text-white md:text-6xl">Contact Us</h1>
           <p className="mx-auto mt-4 max-w-xl font-body text-base text-green-100">
-            We&apos;re here to help. Reach out by phone, email, or visit us in Kathmandu.
+            We&apos;re here to help. Reach out by phone, email, or visit us in Lalitpur.
           </p>
         </div>
       </section>
@@ -24,7 +24,7 @@ export default function ContactPage() {
             {[
               { icon: "📞", title: "Phone", content: CLINIC_PHONES, type: "phone" },
               { icon: "✉️", title: "Email", content: [CLINIC_EMAIL], type: "email" },
-              { icon: "📍", title: "Location", content: [CLINIC_ADDRESS, "Kathmandu, Bagmati Province, Nepal"], type: "text" },
+              { icon: "📍", title: "Location", content: [CLINIC_ADDRESS, "Bagmati Province, Nepal"], type: "text" },
             ].map((c) => (
               <div key={c.title} className="animate-on-scroll rounded-xl3 border border-green-100 bg-white p-7 shadow-card text-center">
                 <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-green-100 text-3xl">{c.icon}</span>

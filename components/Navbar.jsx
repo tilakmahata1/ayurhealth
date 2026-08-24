@@ -21,7 +21,7 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-10">
         {/* Logo */}
         <Link href="/" className="focus-ring flex items-center" onClick={() => setOpen(false)}>
-          <Image src="/images/logo.png" alt="Aastha Nature Cure Clinic" width={200} height={75} className="h-14 w-auto" priority />
+          <Image src="/images/logo.png" alt="Aastha Nature Cure Clinic" width={250} height={85} className="h-16 w-auto" priority />
         </Link>
 
         {/* Desktop nav */}
